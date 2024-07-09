@@ -66,6 +66,7 @@
 <RequestedAttribute isRequired="false" Name="urn:oid:1.3.6.1.4.1.5923.1.2.1.6" FriendlyName="eduOrgWhitePagesURI"/>
 <RequestedAttribute isRequired="false" Name="urn:oid:2.5.4.3" FriendlyName="cn"/>
 </AttributeConsumingService>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-130060.oktapreview.com/app/dev-130060_qamaricopa_1/exk11y6ffsoY22ypU0h8/sso/saml"/>
 </IDPSSODescriptor>
 <Organization>
 <OrganizationName xml:lang="en">Amazon Web Services, Inc.</OrganizationName>
